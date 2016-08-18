@@ -77,25 +77,25 @@ flags = [
         #'-I','/media/zh/Work/STM32Library/F0/STM32F0xx_StdPeriph_Driver/inc',
 
         # STM32 F1
-        '-DSTM32F10X_HD',
+        #'-DSTM32F10X_HD',
 
-        '-I','D:/STM32Library/F1/CMSIS/CM3/CoreSupport',
-        '-I','D:/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x',
-        '-I','D:/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar',
-        '-I','D:/STM32Library/F1/STM32F10x_StdPeriph_Driver/inc',
-        '-I','/media/zh/Work/STM32Library/F1/STM32F10x_StdPeriph_Driver/inc/',
-        '-I','/media/zh/Work/STM32Library/F1/CMSIS/CM3/CoreSupport/',
-        '-I','/media/zh/Work/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x/',
-        '-I','/media/zh/Work/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar/',
+        #'-I','D:/STM32Library/F1/CMSIS/CM3/CoreSupport',
+        #'-I','D:/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x',
+        #'-I','D:/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar',
+        #'-I','D:/STM32Library/F1/STM32F10x_StdPeriph_Driver/inc',
+        #'-I','/media/zh/Work/STM32Library/F1/STM32F10x_StdPeriph_Driver/inc/',
+        #'-I','/media/zh/Work/STM32Library/F1/CMSIS/CM3/CoreSupport/',
+        #'-I','/media/zh/Work/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x/',
+        #'-I','/media/zh/Work/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar/',
         
         # STM32 F3
-        #'-DSTM32F37X',
-        #'-I','D:/STM32Library/F3/CMSIS/Include',
-        #'-I','D:/STM32Library/F3/CMSIS/Device/ST/STM32F37x/Include',
-        #'-I','D:/STM32Library/F3/STM32F37x_StdPeriph_Driver/inc',
-        #'-I','/media/zh/Work/STM32Library/F3/CMSIS/Include',
-        #'-I','/media/zh/Work/STM32Library/F3/CMSIS/Device/ST/STM32F37x/Include',
-        #'-I','/media/zh/Work/STM32Library/F3/STM32F37x_StdPeriph_Driver/inc',
+        '-DSTM32F37X',
+        '-I','D:/STM32Library/F3/CMSIS/Include',
+        '-I','D:/STM32Library/F3/CMSIS/Device/ST/STM32F37x/Include',
+        '-I','D:/STM32Library/F3/STM32F37x_StdPeriph_Driver/inc',
+        '-I','/media/zh/Work/STM32Library/F3/CMSIS/Include',
+        '-I','/media/zh/Work/STM32Library/F3/CMSIS/Device/ST/STM32F37x/Include',
+        '-I','/media/zh/Work/STM32Library/F3/STM32F37x_StdPeriph_Driver/inc',
 
         # Current Project
         
