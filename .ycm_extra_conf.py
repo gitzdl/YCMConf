@@ -67,26 +67,26 @@ flags = [
 
         #User Header Files Path, Like #include "Header.h"
         # STM32 F0
-        '-DSTM32F051',
+        #'-DSTM32F051',
         #'-DSTM32F091',
-        '-I','D:/STM32Library/F0/CMSIS/Include',
-        '-I','D:/STM32Library/F0/CMSIS/Device/ST/STM32F0xx/Include',
-        '-I','D:/STM32Library/F0/STM32F0xx_StdPeriph_Driver/inc',
-        '-I','/media/zh/Work/STM32Library/F0/CMSIS/Include',
-        '-I','/media/zh/Work/STM32Library/F0/CMSIS/ST/STM32F0xx/Include',
-        '-I','/media/zh/Work/STM32Library/F0/STM32F0xx_StdPeriph_Driver/inc',
+        #'-I','D:/STM32Library/F0/CMSIS/Include',
+        #'-I','D:/STM32Library/F0/CMSIS/Device/ST/STM32F0xx/Include',
+        #'-I','D:/STM32Library/F0/STM32F0xx_StdPeriph_Driver/inc',
+        #'-I','/media/zh/Work/STM32Library/F0/CMSIS/Include',
+        #'-I','/media/zh/Work/STM32Library/F0/CMSIS/ST/STM32F0xx/Include',
+        #'-I','/media/zh/Work/STM32Library/F0/STM32F0xx_StdPeriph_Driver/inc',
 
         # STM32 F1
-        #'-DSTM32F10X_HD',
+        '-DSTM32F10X_HD',
 
-        #'-I','D:/STM32Library/F1/CMSIS/CM3/CoreSupport',
-        #'-I','D:/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x',
-        #'-I','D:/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar',
-        #'-I','D:/STM32Library/F1/STM32F10x_StdPeriph_Driver/inc',
-        #'-I','/media/zh/Work/STM32Library/F1/STM32F10x_StdPeriph_Driver/inc/',
-        #'-I','/media/zh/Work/STM32Library/F1/CMSIS/CM3/CoreSupport/',
-        #'-I','/media/zh/Work/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x/',
-        #'-I','/media/zh/Work/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar/',
+        '-I','D:/STM32Library/F1/CMSIS/CM3/CoreSupport',
+        '-I','D:/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x',
+        '-I','D:/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar',
+        '-I','D:/STM32Library/F1/STM32F10x_StdPeriph_Driver/inc',
+        '-I','/media/zh/Work/STM32Library/F1/STM32F10x_StdPeriph_Driver/inc/',
+        '-I','/media/zh/Work/STM32Library/F1/CMSIS/CM3/CoreSupport/',
+        '-I','/media/zh/Work/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x/',
+        '-I','/media/zh/Work/STM32Library/F1/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/iar/',
         
         # STM32 F3
         #'-DSTM32F37X',
