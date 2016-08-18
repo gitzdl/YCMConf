@@ -57,7 +57,7 @@ flags = [
         '-isystem','/usr/include/c++/5.2.1/',
         
         # For windows system And IAR
-        '-system','C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\inc\c',
+        '-isystem','C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\inc\c',
 
 
 
